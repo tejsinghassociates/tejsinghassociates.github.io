@@ -71,14 +71,13 @@
    #contact_right
    {
       border-left: solid violet 0px;
-       padding: 10px 10px;
+       padding: 10px 0px;
        padding-top: 50px;
    }
  }
 
  .item{
-   background-color: white;;
-   height: 350px;
+   background-color: white;
    border-radius: 15px;
    color:black;
    padding: 20px 40px;
@@ -86,36 +85,36 @@
 
 .serve-row{
  padding: 40px 60px;
- background-color: blueviolet;
+ background-color: white;
 }
 @media only screen and (max-width: 768px) {
   .serve-row{
    padding: 20px;
-   background-color: blueviolet;
+   background-color: white;
   }
 }
 
  .serve
  {
-   height: 470px;
    width: 100%;
-   color:black;
+   color:white;
    text-align: center;
-   background-color: white;
-   border: solid blueviolet 40px;
-   border-radius: 50px;
+   background-color: tomato;
+   border: solid white 40px;
+   border-radius: 55px;
    padding: auto;
-   transition: transform .3s;
+   padding-bottom: 40px;
+   transition: transform .5s;
  }
 
   @media only screen and (max-width: 768px) {
     .serve
     {
-      height: 450px;
       width: 100%;
+      color: white;
       text-align: center;
-      background-color: white;
-      border: solid blueviolet 5px;
+      background-color: tomato;
+      border: solid white 5px;
       border-radius: 20px;
       padding: auto;
     }
@@ -124,7 +123,7 @@
 
   .serve:hover
   {
-    transform: scale(1.07);
+    transform: scale(1.04);
   }
 
   .serve-link
@@ -144,6 +143,11 @@
     width: 100%;
     padding-bottom: 40px;
   }
+ .director-right{
+   padding-left: 60px;
+   padding-right: 60px;
+   border-left: solid white 2px;
+ }
   .director-image{
      height: 300px;
      width:300px;
@@ -161,10 +165,78 @@
        width:200px;
        border-radius:50%;
     }
+    .director-right{
+      padding: 20px 20px;
+      border : none;
+    }
 
  }
 
+.about-us-row{
+  padding:80px 20px;
+}
+.about-us
+{
+   widht:100%;
+   padding: 30px 20px;
+   background-color:white;
+   transition: transform .3s;
+}
 
+.about-us:hover
+{
+  transform: scale(1.03);
+  z-index: 99;
+  border: solid black 1px;
+}
+
+.banner
+{
+   background-color: #ffa500;
+   color:white;
+   padding: 130px 230px;
+}
+
+.banner-1
+{
+  font-size: 60px;
+  font-weight: bold;
+}
+.banner-2
+{
+  font-size: 35px;
+  font-weight: bold;
+}
+.banner-3
+{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner
+  {
+     background-color:tomato;
+     color:white;
+     padding: 50px 10px;
+  }
+  .banner-1
+  {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .banner-2
+  {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .banner-3
+  {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+}
   </style>
 
 </head>
@@ -207,47 +279,113 @@
 
 
 
-<div class="container-fluid text-center" style="">
- <div class="row director-row">
+<div class="container-fluid">
+ <div class="row banner text-center" style="">
+   <div class="col-sm-12">
+    <p class="banner-1">HAVING CONSULTANTS</p><br>
+    <p class="banner-2">FOR THE TECHINCAL WORK REDUCES YOUR OVERALL TECH SPEND BY</p><br>
+    <p class="banner-3">MORE THAN 50%</p>
+  </div>
+  </div>
+</div>
 
-    <div class="col-md-6 director">
-      <div >
-           <img src="./images/bhai.jpg" alt="Director Operations" class="director-image" >
-      </div>
-      <br>
-       <h2>Tej Singh</h2>
-       <p>Cofounder, Director Operations<br>
-          Tej Singh Associates,Gurgaon</p>
+
+<div class="container-fluid text-center">
+ <br><br><br>
+  <h1>Why Choose Us</h1>
+  <div class="row about-us-row" style="">
+    <div class="col-md-3 about-us" style="">
+        <img src="./images/about/management.jpg" alt="management" height="150px" widht="150px">
+        <br><br>
+        <h5>Management Profile</h5>
+        <br>
+        <p>We have well managed Advocates, Consultants, staff & associates to address the needs of its clients in a timely and cost
+           effective manner. We have experienced and professional team to endeavor the best.</p>
     </div>
 
-    <div class="col-md-6 director">
-     <h4>Our Mission</h4>
-     <p>
-       <span style="font-size:22px;">Tej Singh Associates</span>,
-       we provide workable advice and cost effective assistance to our clients. The clients benefit is our foremost aim.
-        Our basic and aimed approach is to view issues from both the phases that is from a business as well as a legal
-        perspective. We focus on problem avoidance, not just problem solving. With a sophisticated understanding of changing
-         business environment intersecting with law, public policy and technology, the Firm is positioned to protect and
-          advance its clients’ business interests in the present era of globalization. To establish Business Associates at
-           all major business centers in India with a mission to develop and penetrate market effectively by providing
-            value added and personalized services to our esteemed clients. To Practice quality improvement process and
-             achieve significant improvement in business results.
-     </p>
-     <h4>Our Team</h4>
-     <p>
-       We have well managed Advocates, Consultants, staff & associates to address the needs of its clients in a timely
-       and cost effective manner. We have experienced and professional team to endeavor the best.
-     </p>
+    <div class="col-md-3 about-us" style=" ">
+        <img src="./images/about/commitment.png" alt="management" height="150px" widht="150px">
+        <br><br>
+        <h5>Commitment</h5>
+        <br>
+        <p>
+          We are committed to provide high-end Legal consultancy services to our esteemed clients. We are developed on
+           a tradition to specialize in listening, even the unsaid word, and understand your business requirements.
+        </p>
     </div>
 
-   <br><br>
- </div>
+    <div class="col-md-3 about-us" style="">
+        <img src="./images/about/cost-effective.png" alt="management" height="150px" widht="150px">
+        <br><br>
+        <h5>Cost Effective</h5>
+        <br>
+        <p>
+        We belief in make Good public relation. Amount is not first priority for us we always try to happy our customers.
+         We deal with cost effective service.
+        </p>
+    </div>
+
+    <div class="col-md-3 about-us" style="">
+        <img src="./images/about/fast-service.png" alt="management" height="150px" widht="150px">
+        <br><br>
+        <h5>Fast Service</h5>
+        <br>
+        <p>
+          We always try to finish our work before your given time. Some time we do work within 24 hour if possibility occur.
+        </p>
+    </div>
+
+  </div>
+  <hr>
 </div>
 
 
 
 <section>
-    <div class="container-fluid text-center" style="background-color: blueviolet; color:white;">
+    <div class="container-fluid text-center" style="background-color:lightgray;" id="about_us">
+   <br><br>
+   <h1>About Us</h1>
+     <div class="row director-row">
+
+        <div class="col-md-6 director">
+          <div >
+               <img src="./images/bhai.jpg" alt="Director Operations" class="director-image" >
+          </div>
+          <br>
+           <h2>Tej Singh</h2>
+           <p>Cofounder, Director Operations<br>
+              Tej Singh Associates,Gurgaon</p>
+        </div>
+
+        <div class="col-md-6 director director-right">
+         <h4>Our Mission</h4>
+         <p>
+           <span style="font-size:22px;">Tej Singh Associates</span>,
+           we provide workable advice and cost effective assistance to our clients. The clients benefit is our foremost aim.
+            Our basic and aimed approach is to view issues from both the phases that is from a business as well as a legal
+            perspective. We focus on problem avoidance, not just problem solving. With a sophisticated understanding of changing
+             business environment intersecting with law, public policy and technology, the Firm is positioned to protect and
+              advance its clients’ business interests in the present era of globalization. To establish Business Associates at
+               all major business centers in India with a mission to develop and penetrate market effectively by providing
+                value added and personalized services to our esteemed clients. To Practice quality improvement process and
+                 achieve significant improvement in business results.
+         </p>
+         <h4>Our Team</h4>
+         <p>
+           We have well managed Advocates, Consultants, staff & associates to address the needs of its clients in a timely
+           and cost effective manner. We have experienced and professional team to endeavor the best.
+         </p>
+        </div>
+
+       <br><br>
+     </div>
+     <hr>
+    </div>
+</section>
+
+
+<section>
+    <div class="container-fluid text-center" id="our_services" style="background-color: white; color:black;">
     <br><br><h1>Our Services</h1>
       <div class="row serve-row">
 
@@ -390,19 +528,20 @@
          </div>
       </div>
        <a href="./services.html" class="btn btn-primary btn-lg">Read More</a><br><br><br>
+       <hr>
     </div>
 </section>
 
 
 
 <section>
-    <div class="container-fluid text-center" id="clients" style="background-color:white; color:black;">
-    <br>
+    <div class="container-fluid text-center" id="our_clients" style="background-color:lightgray; color:black;">
+    <br><br>
     <h1>Our Clients</h1>
      <br><br>
-      <div class="owl-carousel owl-theme" >
+      <div class="owl-carousel owl-theme clients_owl" >
           <div class="item" >
-            <img src="./images/clients/school.png" alt="school" height="200px" weight="150px;" >
+            <img src="./images/clients/school.png" alt="school" height="200px" weight="200px;" >
             <hr>
             <h4>Delhi Public School Manesar</h4>
           </div>
@@ -476,7 +615,7 @@
 
 
 <section>
-  <div class="container-fluid" style="background-color:blueviolet; color: white; text-align:center;">
+  <div class="container-fluid" id="contact_us" style="background-color:blueviolet; color: white; text-align:center;">
     <br><br><h1>Contact Us</h1>
      <br><p>Gugraon Office: I-103, First Floor, Rail Vihar, Sector-15, Part-II, Haryana
       <br>#-209, First Floor, Deep Plaza, Opp. Distt., Court, Gurgaon(Hr.)
@@ -533,11 +672,12 @@ function myMap() {
   marker.setMap(map);
 }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-Can0B2F00P0j-A6YhYbOpJYUrxlMuR&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-Can0B2F00P0j-A6YhYbOpJYUrxlMuR0&callback=myMap"></script>
 <script src="./js/jquery.min.js" type="text/javascript"></script>
 <script src="./js/owl.carousel.min.js" type="text/javascript" ></script>
 <script type="text/javascript">
-$('.owl-carousel').owlCarousel({
+
+$('.clients_owl').owlCarousel({
   loop:true,
   margin:10,
   autoplay:true,
@@ -556,6 +696,28 @@ $('.owl-carousel').owlCarousel({
       }
   }
 })
+
+  $('.banner_owl').owlCarousel({
+    loop:true,
+    margin:0,
+    autoplay:true,
+    autoplayTimeout:1500,
+    autoplayHoverPause:true,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+
+})
+
 </script>
 <script src="./js/bootstrap.min.js" type="text/javascript"></script>
 
