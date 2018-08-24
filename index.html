@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="./images/favicon.jpg" type="image/x-icon">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Yeon+Sung" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="./css/owl.carousel.min.css" type="text/css">
   <link rel="stylesheet" href="./css/owl.theme.default.css" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -14,6 +14,9 @@
   <title>Tej Singh Associates</title>
   <style>
 
+html,body{
+  font-family: Montserrat;
+}
      ul li a.nav-link
       {
        color: white !important;
@@ -84,6 +87,7 @@
    background-color: white;
    border-radius: 15px;
    color:black;
+   min-height: 350px;
    padding: 20px 40px;
  }
  @media only screen and (max-width: 768px) {
@@ -91,6 +95,9 @@
    {
      background-color:white;
    }
+ .items{
+   min-height: auto;
+ }
 }
 .serve-row{
  padding: 40px 60px;
@@ -108,12 +115,11 @@
    width: 100%;
    color:white;
    text-align: center;
-   background-color: tomato;
+   background-color: #191919;
    border: solid white 40px;
-   border-radius: 55px;
+   border-radius: 20px;
    padding: auto;
    padding-bottom: 40px;
-   transition: transform .5s;
  }
 
   @media only screen and (max-width: 768px) {
@@ -130,22 +136,19 @@
 
   }
 
-  .serve:hover
-  {
-    transform: scale(1.04);
-  }
-
   .serve-link
   {
     text-align: left;
     text-decoration:none;
     display:inline-block;
     width: 100%;
+
   }
 
   .director-container
   {
-    background-color: lightgray;
+    background-color: #191919;
+    color: white;
   }
   .director-row{
     padding: 30px 80px;
@@ -199,18 +202,15 @@
    padding: 30px 20px;
    background-color:white;
    transition: transform .3s;
+   border-left: 1px solid lightgray;
+   border-right: 1px solid lightgray;
+
 }
 
-.about-us:hover
-{
-  transform: scale(1.03);
-  z-index: 99;
-  border: solid black 1px;
-}
 
 .banner
 {
-   background-color: #ffa500;
+   background-color: #191919;
    color:white;
    padding: 130px 230px;
 }
@@ -234,7 +234,7 @@
 @media only screen and (max-width: 768px) {
   .banner
   {
-     background-color:tomato;
+     background-color:#191919;
      color:white;
      padding: 50px 10px;
   }
@@ -411,132 +411,75 @@
     <br><br><h1>Our Services</h1>
       <div class="row serve-row">
 
-         <div class="col-lg-4 col-md-6 serve text-left">
-            <br><h4 class="text-center">Documentation</h4><br>
+         <div class="col-lg-6 col-md-6 serve text-left">
+            <br><h4 class="text-center">No Objection Certificate (NOC)</h4><br>
             <ul  style="width:100%;">
-              <li style="" class="serve-link">
+
+              <li class="serve-link" style="list-style-position: outside;">
                   <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Trademark/Brand/Logo</span>
+                  <span style="font-size:18px;">The BOCW Cess Act,1996</span>
               </li>
-              <li style="" class="serve-link">
+
+              <li class="serve-link" style="list-style-position: outside;">
                   <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Copyright</span>
+                  <span style="font-size:18px;">The Haryana Fire Services Act, 2009</span>
               </li>
-              <li style="" class="serve-link">
+
+              <li class="serve-link" style="list-style-position: outside;">
                   <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Design</span>
+                  <span style="font-size:18px;">The Water (Prevention & Control of Pollution) Act, 1974</span>
               </li>
-              <li style="" class="serve-link">
+              <li class="serve-link" style="list-style-position: outside;">
                   <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Patent</span>
+                  <span style="font-size:18px;">The Air (Prevention & Control of Pollution) Act, 1981</span>
               </li>
-              <li style="" class="serve-link">
+              <li class="serve-link" style="list-style-position: outside;">
                   <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Proprietorship Firm</span>
+                  <span style="font-size:18px;">The Environment (Protection) Act, 1986</span>
               </li>
-              <li style="" class="serve-link">
+
+              <li class="serve-link" style="list-style-position: outside;">
                   <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Partnership Firm</span>
+                  <span style="font-size:18px;">The e-waste(Management & Handling) Rules,2016</span>
               </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Pvt. Ltd. Company</span>
+
+              <li class="serve-link" style="list-style-position: outside;">
+                <i class="fas fa-angle-double-right fa-1x"></i>
+                <span style="font-size:18px;">The Hazards Waste (M& H) Rules, 2016 as amended</span>
               </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">LLP</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">HUF</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">ISO Certification</span>
-              </li>
+
             </ul>
          </div>
 
-         <div class="col-lg-4 col-md-6 serve text-left">
+         <div class="col-lg-6 col-md-6 serve text-left">
             <br><h4 class="text-center">Registration</h4><br>
             <ul  style="width:100%;">
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">PAN/TAN</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Income Tax</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">GST</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">GST/Income Tax Return</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Magazine/Newspaper</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">NGO/Society</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Trust</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Part Time & Full Time Accounting</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Shop & Establishment License</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">PF/ESI</span>
-              </li>
-            </ul>
-         </div>
 
-         <div class="col-lg-4 col-md-6 serve text-left">
-            <br><h4 class="text-center">Consultancy</h4><br>
-            <ul  style="width:100%;">
+              <li style="" class="serve-link">
+                <i class="fas fa-angle-double-right fa-1x"></i>
+                <span style="font-size:18px; ">The Punjab Shops and Commercial Establishment Act,1958</span>
+              </li>
+
               <li style="" class="serve-link">
                   <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Water/Air Fire NOC</span>
+                  <span style="font-size:18px; ">The BOCW(RE and CS) Act,1996</span>
+              </li>
+
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Factory Act,1948</span>
               </li>
               <li style="" class="serve-link">
                   <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Factory License</span>
+                  <span style="font-size:18px; ">The Contract Labour (Regulation and Abolition) Act 1970</span>
               </li>
               <li style="" class="serve-link">
                   <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">GPA/SPA</span>
+                  <span style="font-size:18px; ">The Employees State Insurance Act, 1948</span>
               </li>
               <li style="" class="serve-link">
                   <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">WILL</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Sale Deed</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">IEC Code</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Lease Deed</span>
-              </li>
-              <li style="" class="serve-link">
-                  <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">COrporate Financing</span>
+                  <span style="font-size:18px; ">The E.P.F and Misc Provisions Act, 1952 and Scheme</span>
               </li>
               <li style="" class="serve-link">
                   <i class="fas fa-angle-double-right fa-1x"></i>
@@ -544,13 +487,91 @@
               </li>
               <li style="" class="serve-link">
                   <i class="fas fa-angle-double-right fa-1x"></i>
-                  <span style="font-size:18px; ">Digital Signature (DSC)</span>
+                  <span style="font-size:18px; ">Trade licence</span>
               </li>
+
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">Beneficiary registration of worker under bocw act 1996</span>
+              </li>
+
+
+            </ul>
+         </div>
+
+         <div class="col-lg-12 col-md-12 serve text-left">
+            <br><h4 class="text-center">Compliances</h4><br>
+            <ul  style="width:100%;">
+
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Minimum Wages Act, 1948</span>
+              </li>
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Payment of Wages Act, 1936</span>
+              </li>
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Payment of Gratuity Act, 1972</span>
+              </li>
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Equal Remuneration Act, 1976</span>
+              </li>
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Maternity Benefit Act, 1961</span>
+              </li>
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">  The Workmen’s Compensation Act, 1923</span>
+              </li>
+
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Punjab Labour Welfare Fund Act, 1965</span>
+              </li>
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Punjab Industrial Establishment (National and Festival Holidays and Causal and Sick Leave Act,1965</span>
+              </li>
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Payment of Bonus Act, 1965</span>
+              </li>
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Industrial Dispute Act,1947*Conciliation </span>
+              </li>
+
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Industrial Employment (Standing Orders)Act,1946</span>
+              </li>
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Collection of  Statistics Act,1953</span>
+              </li>
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">The Employment Exchange (Compulsory Notification of Vacancies) Act, 1959</span>
+              </li>
+
+              <li style="" class="serve-link">
+                  <i class="fas fa-angle-double-right fa-1x"></i>
+                  <span style="font-size:18px; ">All Payroll Compliances</span>
+              </li>
+              <br><br>
+                <p style="text-align:center">"we do auditing and compliances of all the above mentioned acts"
+                </p>
+
+
             </ul>
          </div>
       </div>
        <a href="./services.html" class="btn btn-primary btn-lg">Read More</a><br><br><br>
-       <hr>
+
     </div>
 </section>
 
@@ -593,7 +614,7 @@
           </div>
 
           <div class="item" >
-            <img src="./images/clients/hospital.png" alt="school" height="150px" width="150px" >
+            <img src="./images/clients/world_laproscopy.png" alt="school" height="150px" width="150px" >
             <hr>
             <h4>World Laproscopy Hospital</h4>
           </div>
