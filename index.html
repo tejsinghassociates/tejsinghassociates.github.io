@@ -50,7 +50,7 @@ html,body{
     #contact{
       text-align: center;
       color: white;
-      background-color: blueviolet;
+      background-color: #17a2b8;
       padding: 30px 20px;
     }
    #map{
@@ -83,13 +83,14 @@ html,body{
 {
   background-color:lightgray;
 }
- .item{
-   background-color: white;
-   border-radius: 15px;
+  .item{
    color:black;
-   min-height: 350px;
+   background-color: white;
+   height: 320px;
+   border: solid white 5px;
    padding: 20px 40px;
  }
+
  @media only screen and (max-width: 768px) {
    .our_clients-container
    {
@@ -99,13 +100,14 @@ html,body{
    min-height: auto;
  }
 }
+
 .serve-row{
- padding: 40px 60px;
+ padding: 30px 20px;
  background-color: white;
 }
 @media only screen and (max-width: 768px) {
   .serve-row{
-   padding: 20px;
+   padding: 20px 0px;
    background-color: white;
   }
 }
@@ -113,25 +115,36 @@ html,body{
  .serve
  {
    width: 100%;
-   color:white;
+   color: teal;
    text-align: center;
-   background-color: #191919;
-   border: solid white 40px;
-   border-radius: 20px;
+   background-color: whitesmoke;
+   border: solid white 20px;
    padding: auto;
-   padding-bottom: 40px;
+   padding-bottom: 20px;
  }
+
+.serve_ul
+{
+	width: 105%;
+	margin-left: -25px;
+}
 
   @media only screen and (max-width: 768px) {
     .serve
     {
       width: 100%;
-      color: white;
+      color: teal;
+	  border:  0px;
       text-align: center;
-      background-color: #191919;
+      background-color: whitesmoke;
       border: solid white 5px;
-      border-radius: 20px;
       padding: auto;
+    }
+
+    .serve_ul
+    {
+    	width: 110%;
+    	margin-left: -35px;
     }
 
   }
@@ -142,7 +155,6 @@ html,body{
     text-decoration:none;
     display:inline-block;
     width: 100%;
-
   }
 
   .director-container
@@ -302,7 +314,7 @@ html,body{
 
 
 <div class="container-fluid">
- <div class="row banner text-center" style="">
+ <div class="row banner text-center" style="background-color: teal;">
    <div class="col-sm-12">
     <p class="banner-1">HAVING CONSULTANTS</p><br>
     <p class="banner-2">FOR THE TECHINCAL WORK REDUCES YOUR OVERALL TECH SPEND BY</p><br>
@@ -408,12 +420,12 @@ html,body{
 
 <section>
     <div class="container-fluid text-center" id="our_services" style="background-color: white; color:black;">
-    <br><br><h1>Our Services</h1>
-      <div class="row serve-row">
+    <br><br><h1 style="color: teal; font-weight: 700; ">Our Services</h1>
+      <div class="row serve-row justify-content-center">
 
-         <div class="col-lg-6 col-md-6 serve text-left">
-            <br><h4 class="text-center">No Objection Certificate (NOC)</h4><br>
-            <ul  style="width:100%;">
+         <div class="col-lg-4 col-md-6 serve text-left">
+            <br><h4 class="text-center" style="font-weight: 600;">No Objection Certificate</h4><br>
+            <ul  class="serve_ul">
 
               <li class="serve-link" style="list-style-position: outside;">
                   <i class="fas fa-angle-double-right fa-1x"></i>
@@ -451,9 +463,9 @@ html,body{
             </ul>
          </div>
 
-         <div class="col-lg-6 col-md-6 serve text-left">
-            <br><h4 class="text-center">Registration</h4><br>
-            <ul  style="width:100%;">
+         <div class="col-lg-4 col-md-6 serve text-left">
+            <br><h4 class="text-center" style="font-weight: 600;">Registration</h4><br>
+            <ul   class="serve_ul">
 
               <li style="" class="serve-link">
                 <i class="fas fa-angle-double-right fa-1x"></i>
@@ -499,9 +511,9 @@ html,body{
             </ul>
          </div>
 
-         <div class="col-lg-12 col-md-12 serve text-left">
-            <br><h4 class="text-center">Compliances</h4><br>
-            <ul  style="width:100%;">
+         <div class="col-lg-4 col-md-12 serve text-left">
+            <br><h4 class="text-center" style="font-weight: 600;">Compliances</h4><br>
+            <ul  class="serve_ul">
 
               <li style="" class="serve-link">
                   <i class="fas fa-angle-double-right fa-1x"></i>
@@ -580,7 +592,7 @@ html,body{
 <section>
     <div class="container-fluid text-center our_clients-container" id="our_clients" style="color:black;">
     <br><br>
-    <h1>Our Clients</h1>
+    <h1 style="font-weight: 600; color: teal; ">Our Clients</h1>
      <br><br>
       <div class="owl-carousel owl-theme clients_owl" >
           <div class="item" >
@@ -658,7 +670,7 @@ html,body{
 
 
 <section>
-  <div class="container-fluid" id="contact_us" style="background-color:blueviolet; color: white; text-align:center;">
+  <div class="container-fluid" id="contact_us" style="background-color:#17a2b8; color: white; text-align:center;">
     <br><br><h1>Contact Us</h1>
      <br><p>Gugraon Office: I-103, First Floor, Rail Vihar, Sector-15, Part-II, Haryana
       <br>#-209, First Floor, Deep Plaza, Opp. Distt., Court, Gurgaon(Hr.)
